@@ -69,8 +69,7 @@ async def FMJ(ctx):
     response = random.choice(FMJ)
     await ctx.send(response)
 
-
-
+#more commands to be added
 #experimental
 
 @bot.command(pass_context=True ,name='covid',help='Gives you Covid stats')
